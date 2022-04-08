@@ -79,6 +79,6 @@ for x in range(2):
         # circle = cv2.circle(image, cv2.findNonZero(white)[0][0], 20, (255, 0, 0), 2)
         # cv2.imshow("image", circle)
 
-        # cv2.imwrite("Lines of {0}".format(name),LinesImage)
+        cv2.imwrite("Path of {0}".format(name),image)
         # cv2.imshow("output",LinesImage)
         cv2.waitKey(0)
